@@ -30,6 +30,7 @@ module.exports = {
           { text: '开源项目', link: '/repository/' },
           { text: '前端网址', link: '/website/' },
           { text: '代码片段', link: '/code/' },
+          { text: '前端摸金', link: '/web/' },
           { text: 'Webpack', link: '/webpack/' }
         ]
       },
