@@ -1,9 +1,9 @@
 {
-  "name": "awesome-bookmarks",
+  "name": "ele-alien",
   "version": "1.0.0",
-  "description": "awesome-bookmarks",
+  "description": "ele-alien",
   "main": "index.js",
-  "author": "PanJiaChen",
+  "author": "Cary",
   "license": "ISC",
   "scripts": {
     "dev": "vuepress dev docs",

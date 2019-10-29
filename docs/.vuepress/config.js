@@ -9,7 +9,7 @@ const utils = require('./utils')
 module.exports = {
   title: 'ele-alien-前端常用的工具库',
   description: 'element 超强组件组合',
-  base: '/ele-alien/',
+  base: '/alien-docs/',
   head: [
     [
       'link',
