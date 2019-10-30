@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "build:sh": "deploy.sh",
     "lint": "prettier --write 'docs/**/*.md'",
     "release": "node scripts/release.js"
   },
@@ -34,6 +35,11 @@
     "markdown-it-include": "^1.0.0",
     "markdown-toc": "1.2.0",
     "prettier": "^1.14.0",
-    "vuepress": "^0.14.1"
+    "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/theme-default": "^1.2.0",
+    "vuepress-plugin-helper-live2d": "^1.0.0"
   }
 }
