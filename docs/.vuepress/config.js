@@ -27,6 +27,7 @@ module.exports = {
         text: '前端工具',
         ariaLabel: 'Language Menu',
         items: [
+          { text: '前端导航', link: '/web-nav/' },
           { text: '开源项目', link: '/repository/' },
           { text: '前端网址', link: '/website/' },
           { text: '代码片段', link: '/code/' },
@@ -48,8 +49,10 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     sidebarDepth: 3
   },
-  plugins: ['@vuepress/back-to-top', [
-    'vuepress-plugin-helper-live2d', {
+  plugins: [
+    '@vuepress/back-to-top', 
+    'vuepress-plugin-smooth-scroll', 
+    ['vuepress-plugin-helper-live2d', {
       live2d: {
         // 是否启用(关闭请设置为false)(default: true)
         enable: true,
@@ -59,7 +62,7 @@ module.exports = {
         display: {
           position: "right", // 显示位置：left/right(default: 'right')
           width: 135, // 模型的长度(default: 135)
-          height: 300, // 模型的高度(default: 300)
+          height: 231, // 模型的高度(default: 300)
           hOffset: 65, // 水平偏移(default: 65)
           vOffset: 0, // 垂直偏移(default: 0)
         },
