@@ -17,6 +17,13 @@ module.exports = {
         rel: 'icon',
         href: '/favicon.ico'
       }
+    ],
+    [
+      'link',
+      {
+        type: 'text/css',
+        href: '/cc-layout-simple.css'
+      }
     ]
   ],
   themeConfig: {
@@ -27,7 +34,7 @@ module.exports = {
         text: '前端工具',
         ariaLabel: 'Language Menu',
         items: [
-          { text: '前端导航', link: '/web-nav/' },
+          { text: '导航菜单', link: '/web-nav/' },
           { text: '开源项目', link: '/repository/' },
           { text: '前端网址', link: '/website/' },
           { text: '代码片段', link: '/code/' },

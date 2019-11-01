@@ -3,6 +3,11 @@ home: true
 heroImage: /main-logo.png
 actionText: 开始了解 →
 actionLink: /repository/
+meta:
+  - name: web
+    content: 前端开发
+  - name: web
+    content: 前端开发
 features:
 - title: 基于element
   details: 以 Element 为中心的项目结构，以最少的配置帮助你专注于使用开发。
